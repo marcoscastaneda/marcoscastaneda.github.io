@@ -1,0 +1,110 @@
+body, html {
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#header {
+  background-attachment: fixed;
+}
+
+#header h1.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-shadow: 3px 3px #275bbf;
+}
+
+#header h2.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #bfd9f9;
+}
+
+#header .social {
+  letter-spacing: 5px;
+}
+
+#header a {
+  opacity: 0.7;
+}
+
+#header a:hover {
+  opacity: 0.95;
+}
+
+.section h1.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #3e3e3e;
+  text-shadow: 3px 3px #ececec;
+  margin-bottom: 20px;
+}
+
+.box h3.title {
+  font-weight: 600;
+}
+
+.project-box p.subtitle {
+  font-size: 12pt;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.skills-box p {
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+.skills-box span {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 2.5em;
+}
+
+.experience-box p {
+  font-size: 12pt;
+}
+
+/* Animations */
+#header h1, #header h2, #header p {
+  animation-name: showHeader;
+  animation-iteration-count: 1;
+  animation-duration: 0.6s;
+}
+
+#header .hero-foot {
+  padding-bottom: 10px;
+  animation-name: dropChevron;
+  animation-iteration-count: 1;
+  animation-duration: 1.1s;
+}
+
+/* Animations implementations */
+@keyframes showHeader {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes dropChevron {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Custom gradient */
+.hero.is-info.is-bold {
+  background-image: linear-gradient(141deg, #33ec88 0%, #3295dd 20%, #5645dd 80%, #a74e96 100%);
+}
