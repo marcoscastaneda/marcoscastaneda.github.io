@@ -21,12 +21,12 @@ const Header = ({
         <p className="social">
           <a className="icon is-large" href={github} title="GitHub" target="_blank">
             <i className="fa fa-github" />
-          </a>
+          </a>&nbsp;
           <a className="icon is-large" href={linkedin} title="LinkedIn" target="_blank">
             <i className="fa fa-linkedin-square" />
-          </a>
+          </a>&nbsp;
           <a className="icon is-large" href={`mailto:${email}`} title="E-mail" target="_blank">
-            <i className="fa fa-envelope" />
+            <i className="fa fa-paper-plane" />
           </a>
         </p>
       </div>
