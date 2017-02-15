@@ -15,7 +15,7 @@ export const projects = [
   {
     title: 'COAPS Office Map',
     subtitle: 'Vanilla JavaScript',
-    url: undefined,
+    url: 'https://github.com/marcoscastaneda/office-map',
     description: 'A fully-searchable and interactive office map using Leaflet open-source mapping for the COAPS office that helps new employees orient themselves.'
   },
   {
