@@ -18,8 +18,14 @@ const ProjectItem = ({
         <div className="content">
           <p>
             <strong>{title}</strong> at <span>{company}</span>
-            <span className="is-pulled-right has-text-right is-hidden-mobile">{date}</span>
-            <span className="is-hidden-tablet"><br />{date}</span>
+            <span className="is-pulled-right has-text-right is-hidden-mobile">
+              {date}<br/>
+              <small  className="is-pulled-right has-text-right">{location}</small>
+            </span>
+            <span className="is-hidden-tablet">
+              <br />{date}<br/>
+              <small  className="is-pulled-right has-text-right">{location}</small>
+            </span>
             <br />
             {description}
           </p>

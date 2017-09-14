@@ -15,7 +15,7 @@ export default class Container extends Component {
         <Header
           title="Marcos Castaneda"
           subtitle="Software and Mobile Developer"
-          github="https://github.com/marcoscastaneda"
+          github="https://github.com/marcoss"
           linkedin="https://www.linkedin.com/in/marcoscastaneda"
           email="marcosjcastaneda@gmail.com"
         />
@@ -32,7 +32,7 @@ export default class Container extends Component {
           content={<Experience />}
         />
         <Footer
-          version="1.0"
+          version="1.1"
           url="https://github.com/marcoscastaneda/marcoscastaneda.github.io"
         />
       </div>

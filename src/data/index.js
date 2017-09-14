@@ -94,12 +94,20 @@ export const skills = {
 // Work experiences
 export const experiences = [
   {
+    company: 'Amazon.com',
+    title: 'Software Development Engineer Intern',
+    location: 'New York City, NY',
+    date: 'May 2017 — August 2017',
+    description: null,
+    img: 'job_amazon.jpg'
+  },
+  {
     company: 'Amazon Web Services',
     title: 'Software Development Engineer Intern',
     location: 'Seattle, WA',
     date: 'May 2016 — August 2016',
     description: 'Built a full-stack notifications service using Amazon SNS, SQS, and DynamoDB for a company-wide internal tool.',
-    img: 'job_amazon.jpg'
+    img: 'job_aws.png'
   },
   {
     company: 'State Farm Insurance',
