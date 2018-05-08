@@ -32,7 +32,7 @@ export default class Container extends Component {
           content={<Experience />}
         />
         <Footer
-          version="1.1"
+          version="1.2"
           url="https://github.com/marcoscastaneda/marcoscastaneda.github.io"
         />
       </div>
